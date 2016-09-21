@@ -4,6 +4,9 @@ class HomeController < ApplicationController
     def index
     end
 
+    def dados_pessoais
+
+    end
     def set_auth
       @auth = session[:omniauth] if session[:omniauth]
     end
